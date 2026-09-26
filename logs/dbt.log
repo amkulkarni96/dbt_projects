@@ -1,0 +1,138 @@
+[0m09:35:25.426102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287C7357710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287C66195E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287C73C32F0>]}
+
+
+============================== 09:35:25.533264 | b6813458-acbf-4369-8449-318c9fb9f49d ==============================
+[0m09:35:25.533264 [info ] [MainThread]: Running with dbt=1.12.3
+[0m09:35:25.534266 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Aniruddha\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m09:35:25.898974 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Aniruddha\.dbt
+[0m09:35:58.914057 [debug] [MainThread]: Starter project path: C:\Data Engineering\dbt-projects\.venv\Lib\site-packages\dbt\include\starter_project
+[0m09:35:58.974501 [info ] [MainThread]: Setting up your profile.
+[0m09:37:10.257145 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m09:37:10.258163 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m09:37:10.259269 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m09:45:42.790852 [info ] [MainThread]: Profile dbt_first_project written to C:\Users\Aniruddha\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m09:45:42.878338 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m09:45:42.879447 [info ] [MainThread]: dbt version: 1.12.3
+[0m09:45:42.880466 [info ] [MainThread]: python version: 3.12.10
+[0m09:45:42.880466 [info ] [MainThread]: python path: C:\Data Engineering\dbt-projects\.venv\Scripts\python.exe
+[0m09:45:42.881340 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m09:45:42.978846 [info ] [MainThread]: Using profiles dir at C:\Users\Aniruddha\.dbt
+[0m09:45:42.979846 [info ] [MainThread]: Using profiles.yml file at C:\Users\Aniruddha\.dbt\profiles.yml
+[0m09:45:42.979846 [info ] [MainThread]: Using dbt_project.yml file at C:\Data Engineering\dbt-projects\dbt_first_project\dbt_project.yml
+[0m09:45:42.980845 [info ] [MainThread]: adapter type: databricks
+[0m09:45:42.980845 [info ] [MainThread]: adapter version: 1.10.9
+[0m09:45:43.055272 [info ] [MainThread]: Configuration:
+[0m09:45:43.056272 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:45:43.056656 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:45:43.056973 [info ] [MainThread]: Required dependencies:
+[0m09:45:43.056973 [debug] [MainThread]: Executing "git --help"
+[0m09:45:43.106951 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:45:43.106951 [debug] [MainThread]: STDERR: "b''"
+[0m09:45:43.106951 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:45:43.108549 [info ] [MainThread]: Connection:
+[0m09:45:43.108549 [info ] [MainThread]:   host: dbc-3bd0c5a2-f4b1.cloud.databricks.com
+[0m09:45:43.108549 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/8dfbf9128cdef5f6
+[0m09:45:43.109806 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m09:45:43.110322 [info ] [MainThread]:   schema: default
+[0m09:45:43.111545 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m09:45:43.473892 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m09:45:43.473892 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m09:45:43.474929 [debug] [MainThread]: Using databricks connection "debug"
+[0m09:45:43.474929 [debug] [MainThread]: On debug: select 1 as id
+[0m09:45:43.474929 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:45:46.276955 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1a4f2-a2f6-17e7-8180-05d9eea7d43c) - Created
+[0m09:45:55.583398 [debug] [MainThread]: SQL status: OK in 12.110 seconds
+[0m09:45:55.586397 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f1a4f2-a2f6-17e7-8180-05d9eea7d43c, command-id=01f1a4f2-a3f5-14b1-a791-aea3918473ec) - Closing
+[0m09:45:56.089931 [debug] [MainThread]: On debug: Close
+[0m09:45:56.090943 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1a4f2-a2f6-17e7-8180-05d9eea7d43c) - Closing
+[0m09:45:56.421393 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:45:56.421393 [info ] [MainThread]: [32mAll checks passed![0m
+[0m09:45:56.425032 [info ] [MainThread]: Your new dbt project "dbt_first_project" was created!
+Initialized new project in C:\Data Engineering\dbt-projects\dbt_first_project\dbt_first_project
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:45:56.428029 [debug] [MainThread]: Command `dbt init` succeeded at 09:45:56.428029 after 631.14 seconds
+[0m09:45:56.429651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287C7070740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287C7326810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287E43EE840>]}
+[0m09:45:56.430677 [debug] [MainThread]: Flushing usage events
+[0m09:45:58.415654 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:31:21.383903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B765283AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B76366F2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B762FE9AC0>]}
+
+
+============================== 12:31:21.390565 | e56b4f96-d1ae-4547-b4f7-2a4c748b6064 ==============================
+[0m12:31:21.390565 [info ] [MainThread]: Running with dbt=1.12.3
+[0m12:31:21.391232 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Aniruddha\\.dbt', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m12:31:21.418498 [info ] [MainThread]: dbt version: 1.12.3
+[0m12:31:21.419500 [info ] [MainThread]: python version: 3.12.10
+[0m12:31:21.419500 [info ] [MainThread]: python path: C:\Data Engineering\dbt-projects\.venv\Scripts\python.exe
+[0m12:31:21.420497 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m12:31:22.131841 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m12:31:22.131841 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m12:31:22.131841 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m12:31:22.780343 [info ] [MainThread]: Using profiles dir at C:\Users\Aniruddha\.dbt
+[0m12:31:22.780343 [info ] [MainThread]: Using profiles.yml file at C:\Users\Aniruddha\.dbt\profiles.yml
+[0m12:31:22.781344 [info ] [MainThread]: Using dbt_project.yml file at C:\Data Engineering\dbt-projects\dbt_project.yml
+[0m12:31:22.781344 [info ] [MainThread]: adapter type: databricks
+[0m12:31:22.781344 [info ] [MainThread]: adapter version: 1.10.9
+[0m12:31:22.782342 [info ] [MainThread]: Configuration:
+[0m12:31:22.782342 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:31:22.782342 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:31:22.782342 [info ] [MainThread]: Required dependencies:
+[0m12:31:22.783343 [debug] [MainThread]: Executing "git --help"
+[0m12:31:22.847304 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:31:22.848303 [debug] [MainThread]: STDERR: "b''"
+[0m12:31:22.848303 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:31:22.849303 [info ] [MainThread]: Connection:
+[0m12:31:22.849303 [info ] [MainThread]:   host: dbc-3bd0c5a2-f4b1.cloud.databricks.com
+[0m12:31:22.849303 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/8dfbf9128cdef5f6
+[0m12:31:22.849303 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m12:31:22.849303 [info ] [MainThread]:   schema: default
+[0m12:31:22.850303 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m12:31:23.212460 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m12:31:23.212460 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m12:31:23.212460 [debug] [MainThread]: Using databricks connection "debug"
+[0m12:31:23.212460 [debug] [MainThread]: On debug: select 1 as id
+[0m12:31:23.212460 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:31:25.582618 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: %s
+[0m12:31:25.620854 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: BAD_REQUEST: Cannot create the resource, please try again later.. BAD_REQUEST: Cannot create the resource, please try again later.
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=2.3144729137420654/900.0, error-message=BAD_REQUEST: Cannot create the resource, please try again later., http-code=400, method=OpenSession, no-retry-reason=non-retryable error, original-exception=BAD_REQUEST: Cannot create the resource, please try again later., query-id=None, session-id=None
+[0m12:31:25.621796 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: BAD_REQUEST: Cannot create the resource, please try again later.. BAD_REQUEST: Cannot create the resource, please try again later.
+[0m12:31:25.621796 [debug] [MainThread]: On debug: No close available on handle
+[0m12:31:25.621796 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:31:25.622780 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:31:25.623278 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Data Engineering\dbt-projects\dbt_project.yml> not found
+
+[0m12:31:25.623278 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: BAD_REQUEST: Cannot create the resource, please try again later.. BAD_REQUEST: Cannot create the resource, please try again later.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:31:25.624452 [debug] [MainThread]: Command `dbt debug` failed at 12:31:25.624452 after 4.45 seconds
+[0m12:31:25.624452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B76300AF00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B77EE118E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B77F62F200>]}
+[0m12:31:25.624452 [debug] [MainThread]: Flushing usage events
+[0m12:31:27.013875 [debug] [MainThread]: An error was encountered while trying to flush usage events

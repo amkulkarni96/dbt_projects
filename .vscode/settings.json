@@ -1,0 +1,4 @@
+{
+    "dbt.perspectiveTheme": "Pro Dark",
+    "dbt.dbtPythonPathOverride": "C:\\Data Engineering\\dbt-projects\\.venv\\Scripts\\python.exe"
+}
