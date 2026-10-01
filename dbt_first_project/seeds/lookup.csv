@@ -1,0 +1,11 @@
+customer_id,customer_name,customer_email,customer_segment,city,state,country
+1001,John Smith,john.smith@example.com,Enterprise,New York,NY,USA
+1002,Emily Johnson,emily.johnson@example.com,SMB,Chicago,IL,USA
+1003,Michael Brown,michael.brown@example.com,Consumer,Los Angeles,CA,USA
+1004,Sarah Davis,sarah.davis@example.com,Enterprise,Seattle,WA,USA
+1005,Daniel Wilson,daniel.wilson@example.com,SMB,Austin,TX,USA
+1006,Laura Martinez,laura.martinez@example.com,Consumer,Miami,FL,USA
+1007,Christopher Lee,christopher.lee@example.com,Enterprise,Boston,MA,USA
+1008,Amanda Taylor,amanda.taylor@example.com,SMB,Denver,CO,USA
+1009,Matthew Anderson,matthew.anderson@example.com,Consumer,San Francisco,CA,USA
+1010,Olivia Thomas,olivia.thomas@example.com,Enterprise,Atlanta,GA,USA
