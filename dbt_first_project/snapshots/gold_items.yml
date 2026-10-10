@@ -1,0 +1,16 @@
+version: 2
+
+snapshots:
+  - name: gold_items
+    relation: ref('source_gold_items') # Or use ref('model_name')
+    description: "SCD Type 2 snapshot tracking items changes over time."
+    
+    config:
+      schema: gold
+      database: dbt_tutorial_dev
+      strategy: timestamp
+      unique_key: id
+      updated_at: updateDate
+      dbt_valid_to_current: "to_date('9999-12-31')" 
+
+    
