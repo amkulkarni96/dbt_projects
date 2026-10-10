@@ -7,7 +7,7 @@ snapshots:
     
     config:
       schema: gold
-      database: dbt_tutorial_dev
+      database: '{{ target.catalog }}'
       strategy: timestamp
       unique_key: id
       updated_at: updateDate

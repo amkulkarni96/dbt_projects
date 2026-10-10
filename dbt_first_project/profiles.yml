@@ -8,4 +8,12 @@ dbt_first_project:
       threads: 1
       token: dapi2df5b7f1441fb989db431fb74f61f3ea
       type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-3bd0c5a2-f4b1.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/8dfbf9128cdef5f6
+      schema: default
+      threads: 1
+      token: dapi2df5b7f1441fb989db431fb74f61f3ea
+      type: databricks
   target: dev
